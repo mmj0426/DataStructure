@@ -15,24 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6주차 - FileSystem\main.cpp">
+    <ClCompile Include="7주차 - SkillTree\main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6주차 - FileSystem\Commands.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="6주차 - FileSystem\File_System.cpp">
+    <ClCompile Include="7주차 - SkillTree\SkillTree.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="6주차 - FileSystem\File_System.h">
+    <ClInclude Include="7주차 - SkillTree\Skill.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="6주차 - FileSystem\Node.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="6주차 - FileSystem\Commands.h">
+    <ClInclude Include="7주차 - SkillTree\SkillTree.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
