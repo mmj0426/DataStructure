@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9주차 - MiddleTest\main.cpp">
+    <ClCompile Include="9주차 - MiddleTest\Item.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="9주차 - MiddleTest\Catapult.cpp">
+    <ClCompile Include="9주차 - MiddleTest\main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="9주차 - MiddleTest\Troops.cpp">
@@ -27,21 +27,15 @@
     <ClCompile Include="9주차 - MiddleTest\Unit.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="9주차 - MiddleTest\Item.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="9주차 - MiddleTest\Catapult.h">
+    <ClInclude Include="9주차 - MiddleTest\Item.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="9주차 - MiddleTest\Troops.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="9주차 - MiddleTest\Unit.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="9주차 - MiddleTest\Item.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

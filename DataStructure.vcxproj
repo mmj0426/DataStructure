@@ -19,17 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="9주차 - MiddleTest\Item.cpp" />
     <ClCompile Include="9주차 - MiddleTest\main.cpp" />
-    <ClCompile Include="9주차 - MiddleTest\Catapult.cpp" />
     <ClCompile Include="9주차 - MiddleTest\Troops.cpp" />
     <ClCompile Include="9주차 - MiddleTest\Unit.cpp" />
-    <ClCompile Include="9주차 - MiddleTest\Item.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="9주차 - MiddleTest\Catapult.h" />
+    <ClInclude Include="9주차 - MiddleTest\Item.h" />
     <ClInclude Include="9주차 - MiddleTest\Troops.h" />
     <ClInclude Include="9주차 - MiddleTest\Unit.h" />
-    <ClInclude Include="9주차 - MiddleTest\Item.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

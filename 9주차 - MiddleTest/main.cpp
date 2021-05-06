@@ -1,31 +1,41 @@
 #include "Troops.h"
-#include "Catapult.h"
+#include "Unit.h"
+#include "Item.h"
 
 int main()
 {
-	//// 부대에 유닛 추가 예시코드
-	//// addUnit함수를 통해서만 유닛 추가 가능
-	//Troops* troops = new Troops();
-	//troops->addUnit(new Catapult());
-	//troops->addUnit(new Swordman());
+	// 부대에 유닛 추가 예시코드
+	// addUnit함수를 통해서만 유닛 추가 가능
+	Troops* troops = new Troops();
 
-	//// 1개 그룹 3개 유닛 구성 제한 예시 코드
-	//troops->addUnit(new Catapult());
-	//
-	//// 투석기 그룹 2개 유닛 정보 출력
-	//troops->groupInfoCatapult();
+	// 투석병 4, 나머지 1
+	troops->addUnit(new Catapult());
+	troops->addUnit(new Catapult());
+	troops->addUnit(new Catapult());
+	troops->addUnit(new Catapult());
 
-	//// 투석기 그룹 3개 유닛 
-	//troops->addUnit(new Catapult());
-	//troops->addUnit(new Catapult());
-	//troops->addUnit(new Tank());
-	//troops->groupInfoCatapult();
+	troops->addUnit(new Infantry());
+	troops->addUnit(new Archery());
+	troops->addUnit(new Spearman());
+	troops->addUnit(new Tank());
+	troops->addUnit(new Horseback());
+	
+	// 부대 정보 출력
+	troops->groupInfoCatapult();
+	troops->groupInfoInfantry();
+	troops->groupInfoArchery();
+	troops->groupInfoSpearman();
+	troops->groupInfoTank();
+	troops->groupInfoHorseback();
 
-	//troops->addUnitItem(new CatapultFlag());
+	troops->addUnitItem(new CatapultFlag());
 
-	//TankHorse* tank_horse = new TankHorse();
-	//troops->addUnitItem(tank_horse);
-	//troops->addUnitItem(new TankHorseController());
+	Horse* tank = new Horse();
+	troops->addUnitItem(tank);
+	troops->addUnitItem(new Jockey());
 
-	//troops->addUnitItem(new CavalryHorse());
+	troops->addUnitItem(new Horse());
+
+	troops->addUnit(new Catapult());
+	troops->groupInfoCatapult();
 }
