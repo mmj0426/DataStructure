@@ -1,2 +1,6 @@
-﻿  Troops.cpp
+﻿  Heap.cpp
+E:\DataStructure\10주차 - Heap\Heap.cpp(61,22): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+  Median.cpp
+  main.cpp
+  코드를 생성하고 있습니다...
   DataStructure.vcxproj -> E:\DataStructure\Debug\DataStructure.exe
