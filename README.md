@@ -9,3 +9,7 @@
 - [4주차 : Tree](https://www.notion.so/Tree-93431dab3d5b43128955fbc29255ea33)
 - [5주차 : BST - Binary Search Tree](https://www.notion.so/BST-Binary-Search-Tree-25e9e55d68ee40588137aefbf889c0ae)
 - [6주차 : 균형트리, N항트리](https://www.notion.so/N-78777926a1e34423b5739ef9291791ba)
+
+OT 및 중간고사로 숫자 밀림
+
+- [10주차 : Heap](https://www.notion.so/Heap-f702d9c2bfaa468ebdb4c2f9501b9729)
