@@ -24,12 +24,27 @@
     <ClCompile Include="10주차 - Heap\Median.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11주차 - Hash Table\main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11주차 - Hash Table\URLService.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11주차 - Hash Table\HashTable.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="10주차 - Heap\Heap.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="10주차 - Heap\Median.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="11주차 - Hash Table\URLService.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="11주차 - Hash Table\HashTable.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

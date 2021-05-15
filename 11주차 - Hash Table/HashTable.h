@@ -1,0 +1,14 @@
+#pragma once
+
+template<typename T1, typename T2>
+
+class HashTable
+{
+public : 
+	HashTable(){}
+	~HashTable(){}
+
+private : 
+
+};
+

@@ -22,10 +22,15 @@
     <ClCompile Include="10주차 - Heap\main.cpp" />
     <ClCompile Include="10주차 - Heap\Heap.cpp" />
     <ClCompile Include="10주차 - Heap\Median.cpp" />
+    <ClCompile Include="11주차 - Hash Table\main.cpp" />
+    <ClCompile Include="11주차 - Hash Table\URLService.cpp" />
+    <ClCompile Include="11주차 - Hash Table\HashTable.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="10주차 - Heap\Heap.h" />
     <ClInclude Include="10주차 - Heap\Median.h" />
+    <ClInclude Include="11주차 - Hash Table\URLService.h" />
+    <ClInclude Include="11주차 - Hash Table\HashTable.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
